@@ -289,12 +289,11 @@
   </head>
   <style>
     /* More position value start */
-      - [x] static
-      - [x] sticky
-      - [x] fixed
-      - [x] relative
-      - [x] absolute
-
+       - [x]  static
+       - [x]  sticky
+       - [x] fixed 
+       - [x] relative
+       - [x] absolute 
     /* More position value end */
     .first-div {
       background-color: brown;
