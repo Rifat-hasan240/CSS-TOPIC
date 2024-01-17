@@ -206,6 +206,66 @@
   </body>
 </html>
 ```
+# box-sizing
+``` html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box-sizing</title>
+    <style>
+      .first {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        box-sizing: border-box;
+        border: 4px solid black;
+        background-color: yellowgreen;
+      }
+      .last {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        border: 4px solid black;
+        background-color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first"></div>
+    <div class="last"></div>
+  </body>
+</html>
+
+```
+# box model
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box-model</title>
+    <style>
+      .first {
+        width: 300px;
+        margin: 5px;
+        padding: 5px;
+      }
+      .last {
+        width: 300px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">this is first div</div>
+    <div class="last">this is last div</div>
+  </body>
+</html>
+
+```
 
 # CSS Comments
 
