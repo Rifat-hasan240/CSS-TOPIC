@@ -72,20 +72,120 @@
     <title>css color</title>
   </head>
   <style>
-     h1{
-            color: green;
-           }
-           h2{
-            color: red;
-           }
-           p{
-            color: brown;
-           }
+    h1 {
+      color: green;
+    }
+    h2 {
+      color: red;
+    }
+    p {
+      color: brown;
+    }
   </style>
   <body>
-    <h1>Hallo i am  h1</h1>
-   <h2>Hallo i am h2</h2>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?</p>
+    <h1>Hallo i am h1</h1>
+    <h2>Hallo i am h2</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?
+    </p>
+  </body>
+</html>
+```
+
+# CSS TEXT
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css-text</title>
+    <style>
+      h1 {
+        color: green;
+      }
+      h2 {
+        text-align: center;
+        /* text-align-last: justify;
+              text-align-last: left;
+              text-align-last: right;
+              text-align-last: center;
+            */
+      }
+      h3 {
+        text-decoration: underline;
+        /* text-decoration: overline;
+            text-decoration: line-through;
+           text-decoration-color: brown;
+           text-decoration-style: dotted;
+           text-decoration-thickness:auto; */
+      }
+      h4 {
+        text-transform: uppercase;
+        /* text-transform: lowercase;
+            text-transform: capitalize; */
+      }
+      h5 {
+        text-indent: 50px;
+        /* letter-spacing: 5px;
+           line-height: 20px;
+           word-spacing: 10px;
+           white-space: nowrap; */
+      }
+      h6 {
+        text-shadow: 2px 2px 2px red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am color</h1>
+    <h2>I am align</h2>
+    <h3>I am decoration</h3>
+    <h4>I am transformation</h4>
+    <h5>I am spacing</h5>
+    <h6>I am shadow</h6>
+  </body>
+</html>
+```
+
+# CSS FONTS
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css-fonts</title>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      h2 {
+        font-style: normal;
+        font-style: italic;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      h4 {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am font-family</h1>
+    <h2>I am font-style</h2>
+    <h3>I am font-size</h3>
+    <h4>I am Google Fonts</h4>
   </body>
 </html>
 ```
@@ -98,23 +198,25 @@
     <title>css bg-color</title>
   </head>
   <style>
-         h1{
-            color: green;
-            background-color: gray;
-           }
-           h2{
-            color: red;
-            background-color: yellow;
-           }
-           p{
-            color: brown;
-            background-color: tomato;
-           }
+    h1 {
+      color: green;
+      background-color: gray;
+    }
+    h2 {
+      color: red;
+      background-color: yellow;
+    }
+    p {
+      color: brown;
+      background-color: tomato;
+    }
   </style>
   <body>
-    <h1>Hallo i am  h1</h1>
-   <h2>Hallo i am h2</h2>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?</p>
+    <h1>Hallo i am h1</h1>
+    <h2>Hallo i am h2</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?
+    </p>
   </body>
 </html>
 ```
@@ -127,38 +229,40 @@
     <title>css margin</title>
   </head>
   <style>
-              h1{
-            color: green;
-            background-color: gray;
-            margin: 100px;
-            margin-left: 10px;
-            margin-right: 5px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-           }
-           h2{
-            color: red;
-            background-color: yellow;
-            margin:5rem;
-            margin-left: 10px;
-            margin-right: 5px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-           }
-           p{
-            color: brown;
-            background-color: tomato;
-            margin:5% ;
-            margin-left: 10px;
-            margin-right: 5px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-           }
+    h1 {
+      color: green;
+      background-color: gray;
+      margin: 100px;
+      margin-left: 10px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      color: red;
+      background-color: yellow;
+      margin: 5rem;
+      margin-left: 10px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    p {
+      color: brown;
+      background-color: tomato;
+      margin: 5%;
+      margin-left: 10px;
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
   </style>
   <body>
-    <h1>Hallo i am  h1</h1>
-   <h2>Hallo i am h2</h2>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?</p>
+    <h1>Hallo i am h1</h1>
+    <h2>Hallo i am h2</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?
+    </p>
   </body>
 </html>
 ```
@@ -171,43 +275,155 @@
     <title>css Padding</title>
   </head>
   <style>
-             h1{
-            color: green;
-            background-color: gray;
-            padding: 10px;
-            padding-left: 5px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-           }
-           h2{
-            color: red;
-            background-color: yellow;
-            padding:5rem;
-            padding-left: 5px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-           }
-           p{
-            color: brown;
-            background-color: tomato;
-            padding:5% ;
-            padding-left: 5px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-           }
+    h1 {
+      color: green;
+      background-color: gray;
+      padding: 10px;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    h2 {
+      color: red;
+      background-color: yellow;
+      padding: 5rem;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    p {
+      color: brown;
+      background-color: tomato;
+      padding: 5%;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
   </style>
   <body>
-    <h1>Hallo i am  h1</h1>
-   <h2>Hallo i am h2</h2>
-   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?</p>
+    <h1>Hallo i am h1</h1>
+    <h2>Hallo i am h2</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, sint?
+    </p>
   </body>
 </html>
 ```
+
+# height and width
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css-height and width</title>
+    <style>
+      .first {
+        width: 500px;
+        height: 400px;
+      }
+      .second {
+        width: 50%;
+        height: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first">
+      only width <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In quam, sunt cum
+      beatae tenetur suscipit, corporis, distinctio necessitatibus eveniet
+      magnam culpa provident natus! Earum, minus est. Dolorem assumenda ad
+      corrupti quos maiores rem est deserunt aspernatur nesciunt neque quas
+      mollitia quis voluptate voluptatibus, deleniti nam explicabo maxime
+      impedit, fugit repudiandae. Natus corporis labore nesciunt sequi sunt
+      dolorum tenetur eligendi eaque laudantium voluptas, modi amet at debitis
+      alias! Asperiores perferendis fuga iste natus dolore, recusandae rerum
+      accusantium? Eligendi, repellat aliquid pariatur quisquam blanditiis
+      doloribus consectetur est, ab id repellendus harum sapiente vero aperiam
+      nemo ut et voluptate reiciendis ratione dignissimos eum?
+    </p>
+    <p class="second">
+      max-width <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In quam, sunt cum
+      beatae tenetur suscipit, corporis, distinctio necessitatibus eveniet
+      magnam culpa provident natus! Earum, minus est. Dolorem assumenda ad
+      corrupti quos maiores rem est deserunt aspernatur nesciunt neque quas
+      mollitia quis voluptate voluptatibus, deleniti nam explicabo maxime
+      impedit, fugit repudiandae. Natus corporis labore nesciunt sequi sunt
+      dolorum tenetur eligendi eaque laudantium voluptas, modi amet at debitis
+      alias! Asperiores perferendis fuga iste natus dolore, recusandae rerum
+      accusantium? Eligendi, repellat aliquid pariatur quisquam blanditiis
+      doloribus consectetur est, ab id repellendus harum sapiente vero aperiam
+      nemo ut et voluptate reiciendis ratione dignissimos eum?
+    </p>
+  </body>
+</html>
+```
+
+# MAX-WIDTH
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css-max-width</title>
+    <style>
+      .first {
+        border: 1px solid green;
+        width: 500px;
+      }
+      .second {
+        border: 1px solid green;
+        max-width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first">
+      only width <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In quam, sunt cum
+      beatae tenetur suscipit, corporis, distinctio necessitatibus eveniet
+      magnam culpa provident natus! Earum, minus est. Dolorem assumenda ad
+      corrupti quos maiores rem est deserunt aspernatur nesciunt neque quas
+      mollitia quis voluptate voluptatibus, deleniti nam explicabo maxime
+      impedit, fugit repudiandae. Natus corporis labore nesciunt sequi sunt
+      dolorum tenetur eligendi eaque laudantium voluptas, modi amet at debitis
+      alias! Asperiores perferendis fuga iste natus dolore, recusandae rerum
+      accusantium? Eligendi, repellat aliquid pariatur quisquam blanditiis
+      doloribus consectetur est, ab id repellendus harum sapiente vero aperiam
+      nemo ut et voluptate reiciendis ratione dignissimos eum?
+    </p>
+    <p class="second">
+      max-width <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. In quam, sunt cum
+      beatae tenetur suscipit, corporis, distinctio necessitatibus eveniet
+      magnam culpa provident natus! Earum, minus est. Dolorem assumenda ad
+      corrupti quos maiores rem est deserunt aspernatur nesciunt neque quas
+      mollitia quis voluptate voluptatibus, deleniti nam explicabo maxime
+      impedit, fugit repudiandae. Natus corporis labore nesciunt sequi sunt
+      dolorum tenetur eligendi eaque laudantium voluptas, modi amet at debitis
+      alias! Asperiores perferendis fuga iste natus dolore, recusandae rerum
+      accusantium? Eligendi, repellat aliquid pariatur quisquam blanditiis
+      doloribus consectetur est, ab id repellendus harum sapiente vero aperiam
+      nemo ut et voluptate reiciendis ratione dignissimos eum?
+    </p>
+  </body>
+</html>
+
+
+```
+
 # box-sizing
-``` html
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -237,9 +453,10 @@
     <div class="last"></div>
   </body>
 </html>
-
 ```
+
 # box model
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -264,7 +481,6 @@
     <div class="last">this is last div</div>
   </body>
 </html>
-
 ```
 
 # CSS Comments
@@ -349,7 +565,7 @@
   </head>
   <style>
     /* More position value start */
-       - [x]  static
+    - [x]  static
        - [x]  sticky
        - [x] fixed 
        - [x] relative
