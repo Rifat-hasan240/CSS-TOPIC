@@ -594,3 +594,145 @@
   </body>
 </html>
 ```
+
+# CSS Overflow
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Overflow</title>
+    <style>
+      p {
+        width: 400px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        font-size: 1.3rem;
+        /* overflow: scroll; */
+        /* overflow: hidden; */
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam,
+      sint quisquam nesciunt iusto consequatur velit dolore dicta recusandae
+      amet explicabo veritatis atque beatae error alias, debitis, provident
+      reiciendis vero! Neque architecto quaerat dolorem similique nisi
+      doloremque. Fugit, eligendi! Repudiandae excepturi repellendus pariatur
+      rem? Inventore temporibus ducimus provident ullam obcaecati accusantium,
+      sint odit totam rem reprehenderit cupiditate molestias corporis, fugit
+      culpa itaque assumenda quo alias eos distinctio excepturi similique
+      debitis expedita dolores. Repellendus incidunt tempora nihil odio aliquid
+      rem. Velit cumque corporis vitae praesentium officiis eaque, quam nesciunt
+      obcaecati molestiae reiciendis minima perferendis sed delectus
+      necessitatibus quaerat iure libero iste.
+    </p>
+  </body>
+</html>
+```
+
+# CSS Float
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Float</title>
+    <style>
+      h1 {
+        float: left;
+      }
+      h2 {
+        float: right;
+      }
+      p::before {
+        content: " ";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am left</h1>
+    <h2>I am right</h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus eaque
+      quam aspernatur corrupti ratione corporis harum illum veniam dolor.
+      Molestias.
+    </p>
+  </body>
+</html>
+```
+
+# CSS-inline-block
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-inline-block</title>
+    <style>
+      h1 {
+        background-color: green;
+        display: block;
+      }
+
+      h2 {
+        background-color: red;
+        display: inline;
+      }
+      p {
+        background-color: darkblue;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am block</h1>
+    <h2>I am inline</h2>
+    <p>i am inline-block</p>
+  </body>
+</html>
+```
+
+# CSS align
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-align</title>
+    <style>
+      h1 {
+        background-color: green;
+        height: 300px;
+        width: 500px;
+        text-align: center;
+      }
+
+      h2 {
+        background-color: red;
+        height: 300px;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I am block</h1>
+    <h2>I am inline</h2>
+  </body>
+</html>
+```
